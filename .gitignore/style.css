@@ -1,0 +1,1097 @@
+*
+{padding: 0px;
+ margin: 0px;   
+
+}
+html
+{
+background-color: wheat;    
+}
+/*.test
+{
+margin:0 306px;
+
+
+}  */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+.container > div 
+{
+    font-size: 20px;
+    margin: auto;
+}
+@media (min-width: 1281px) {
+img
+{
+    width: 984px;
+    height: 734px;
+    margin: 0px;
+    
+}     
+img:hover {
+        opacity: 0.5;
+        filter: alpha(opacity=50); /* For IE8 and earlier */
+    }      
+h1
+    { padding:175px 0 0 0 ;  
+       text-align: center;
+       font-size: 50px;
+       font-style: italic;
+       color:rgb(255, 183, 0);
+        
+    }
+h4
+{
+font-size: 90px;
+
+}
+p
+    {
+    font-size:0.75cm;
+    color:aliceblue;
+    font-style: oblique 90deg;
+    }
+.container
+    {
+    display: flex;
+    flex-wrap:wrap;
+    }
+
+/*.container > div 
+    {
+
+    width: 198px;
+
+    }*/
+div>.content /*champ name */
+    {
+
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 984px;
+    padding: 1px;
+    }
+
+
+.Places,.Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+{
+
+    border: 84px solid transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    border-image-width: 10px;
+
+}
+.Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+{
+    padding: 165px 0 0 0;
+
+}
+.Places
+{   margin:150px 0 0 0 ;
+    border: 10px solid transparent;
+    border-image: url('Demacia_Crest 1.png') 40 stretch;
+    /*background-image:url('Demacia_Crest 1.png');*/
+    background-color: cornsilk;
+}
+.Demarcia
+{
+
+    border-image: url('Demacia_Crest 1.png') 40 stretch;
+    background-image:url('Demacia_Crest 1.png');
+    background-color: rgb(46, 46, 46);
+}
+.Noxus
+{
+
+    border-image: url('Noxus_Crest 1.png') 40 stretch;
+    background-image: url("Noxus_Crest 1.png");
+
+}
+.Mount
+{   
+
+    border-image: url('Mount_Targon_Crest 1.png') 40 stretch;
+    background-image: url("Mount_Targon_Crest 1.png");
+
+}
+.Bandle
+{   
+
+    border-image: url('Bandle_City_Crest 1.png') 40 stretch;
+    background-image: url("Bandle_City_Crest 1.png");
+
+}
+.Shurima
+{   
+    
+    border-image: url('Shuriman_Crest 1.png') 40 stretch;
+    background-image: url("Shuriman_Crest 1.png");
+    
+    
+}
+.Void
+{   
+    border-image: url('Void_Crest 1.png') 40 stretch;
+    background-image: url("Void_Crest 1.png");
+
+}
+.Bilgewater
+{
+    border-image: url('Bilgewater_Crest 1.png') 40 stretch;
+    background-image: url("Bilgewater_Crest 1.png");
+
+}
+.Shadow
+{
+
+    border-image: url('Shadow_Isles_Crest 1.png') 40 stretch;
+    background-image: url("Shadow_Isles_Crest 1.png");
+
+}
+.Freljord
+{
+
+    border-image: url('Freljord_crest 1.png') 40 stretch;
+    background-image: url("Freljord_crest 1.png");
+
+}
+.Piltover
+{
+
+    border-image: url('Piltover_Crest 1.png') 40 stretch;
+    background-image: url("Piltover_Crest 1.png");
+
+}
+.Zaun 
+{
+
+    border-image: url('Zaun_Crest 1.png') 40 stretch;
+    background-image: url("Zaun_Crest 1.png");
+
+}
+.Ionia
+{
+
+    border-image: url('Ionia_Crest 1.png') 40 stretch;
+    background-image: url("Ionia_Crest 1.png");
+
+}
+.Unknown
+{
+    border-image: url('unknown.png') 40 stretch;
+    background-image: url("unknown.png");
+
+}
+a
+{
+color: blue;    
+text-decoration:none; 
+}
+a:hover
+{
+  color: aqua;  
+  text-decoration: none;
+}
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    img
+    {
+        width: 101%;
+        height: 148px;
+        margin: 0px;
+        
+    }     
+    img:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }      
+    h1
+        { padding:175px 0 0 0 ;  
+           text-align: center;
+           font-size: 50px;
+           font-style: italic;
+           color:rgb(255, 183, 0);
+            
+        }
+    h4
+    {
+    font-size: 100%;
+    
+    }
+    p
+        {
+        font-size:0.75cm;
+        color:aliceblue;
+        font-style: oblique 90deg;
+        }
+    .container
+        {
+        display: flex;
+        flex-wrap:wrap;
+        }
+    
+    .container > div 
+        {
+        width: 198px;
+    
+        }
+    div>.content /*champ name */
+        {
+    
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        width: 198px;
+        padding: 1px;
+        }
+    
+    
+    .Places,.Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+    
+        border: 10px solid transparent;
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+    
+    }
+    .Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+        padding: 165px 0 0 0;
+    
+    }
+    .Places
+    {   margin:150px 0 0 0 ;
+        border: 10px solid transparent;
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        /*background-image:url('Demacia_Crest 1.png');*/
+        background-color: cornsilk;
+    }
+    .Demarcia
+    {
+    
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        background-image:url('Demacia_Crest 1.png');
+        background-color: rgb(46, 46, 46);
+    }
+    .Noxus
+    {
+    
+        border-image: url('Noxus_Crest 1.png') 40 stretch;
+        background-image: url("Noxus_Crest 1.png");
+    
+    }
+    .Mount
+    {   
+    
+        border-image: url('Mount_Targon_Crest 1.png') 40 stretch;
+        background-image: url("Mount_Targon_Crest 1.png");
+    
+    }
+    .Bandle
+    {   
+    
+        border-image: url('Bandle_City_Crest 1.png') 40 stretch;
+        background-image: url("Bandle_City_Crest 1.png");
+    
+    }
+    .Shurima
+    {   
+        
+        border-image: url('Shuriman_Crest 1.png') 40 stretch;
+        background-image: url("Shuriman_Crest 1.png");
+        
+        
+    }
+    .Void
+    {   
+        border-image: url('Void_Crest 1.png') 40 stretch;
+        background-image: url("Void_Crest 1.png");
+    
+    }
+    .Bilgewater
+    {
+        border-image: url('Bilgewater_Crest 1.png') 40 stretch;
+        background-image: url("Bilgewater_Crest 1.png");
+    
+    }
+    .Shadow
+    {
+    
+        border-image: url('Shadow_Isles_Crest 1.png') 40 stretch;
+        background-image: url("Shadow_Isles_Crest 1.png");
+    
+    }
+    .Freljord
+    {
+    
+        border-image: url('Freljord_crest 1.png') 40 stretch;
+        background-image: url("Freljord_crest 1.png");
+    
+    }
+    .Piltover
+    {
+    
+        border-image: url('Piltover_Crest 1.png') 40 stretch;
+        background-image: url("Piltover_Crest 1.png");
+    
+    }
+    .Zaun 
+    {
+    
+        border-image: url('Zaun_Crest 1.png') 40 stretch;
+        background-image: url("Zaun_Crest 1.png");
+    
+    }
+    .Ionia
+    {
+    
+        border-image: url('Ionia_Crest 1.png') 40 stretch;
+        background-image: url("Ionia_Crest 1.png");
+    
+    }
+    .Unknown
+    {
+        border-image: url('unknown.png') 40 stretch;
+        background-image: url("unknown.png");
+    
+    }
+    a
+    {
+    color: blue;    
+    text-decoration:none; 
+    }
+    a:hover
+    {
+      color: aqua;  
+      text-decoration: none;
+    }
+    
+  }
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   
+    img
+    {
+        width: 101%;
+        height: 100%;
+        margin: 0px;
+        
+    }     
+    img:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }      
+    h1
+        { padding:175px 0 0 0 ;  
+           text-align: center;
+           font-size: 50px;
+           font-style: italic;
+           color:rgb(255, 183, 0);
+            
+        }
+    h4
+    {
+    font-size: 100%;
+    
+    }
+    p
+        {
+        font-size:0.75cm;
+        color:aliceblue;
+        font-style: oblique 90deg;
+        }
+    .container
+        {
+        display: flex;
+        flex-wrap:wrap;
+        }
+    
+    .container > div 
+        {
+        width: 198px;}
+    div>.content /*champ name */
+        {
+    
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        width: 198px;
+        padding: 1px;
+        }
+    
+    
+    .Places,.Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+    
+        border: 10px solid transparent;
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+    
+    }
+    .Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+        padding: 165px 0 0 0;
+    
+    }
+    .Places
+    {   margin:150px 0 0 0 ;
+        border: 10px solid transparent;
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        /*background-image:url('Demacia_Crest 1.png');*/
+        background-color: cornsilk;
+    }
+    .Demarcia
+    {
+    
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        background-image:url('Demacia_Crest 1.png');
+        background-color: rgb(46, 46, 46);
+    }
+    .Noxus
+    {
+    
+        border-image: url('Noxus_Crest 1.png') 40 stretch;
+        background-image: url("Noxus_Crest 1.png");
+    
+    }
+    .Mount
+    {   
+    
+        border-image: url('Mount_Targon_Crest 1.png') 40 stretch;
+        background-image: url("Mount_Targon_Crest 1.png");
+    
+    }
+    .Bandle
+    {   
+    
+        border-image: url('Bandle_City_Crest 1.png') 40 stretch;
+        background-image: url("Bandle_City_Crest 1.png");
+    
+    }
+    .Shurima
+    {   
+        
+        border-image: url('Shuriman_Crest 1.png') 40 stretch;
+        background-image: url("Shuriman_Crest 1.png");
+        
+        
+    }
+    .Void
+    {   
+        border-image: url('Void_Crest 1.png') 40 stretch;
+        background-image: url("Void_Crest 1.png");
+    
+    }
+    .Bilgewater
+    {
+        border-image: url('Bilgewater_Crest 1.png') 40 stretch;
+        background-image: url("Bilgewater_Crest 1.png");
+    
+    }
+    .Shadow
+    {
+    
+        border-image: url('Shadow_Isles_Crest 1.png') 40 stretch;
+        background-image: url("Shadow_Isles_Crest 1.png");
+    
+    }
+    .Freljord
+    {
+    
+        border-image: url('Freljord_crest 1.png') 40 stretch;
+        background-image: url("Freljord_crest 1.png");
+    
+    }
+    .Piltover
+    {
+    
+        border-image: url('Piltover_Crest 1.png') 40 stretch;
+        background-image: url("Piltover_Crest 1.png");
+    
+    }
+    .Zaun 
+    {
+    
+        border-image: url('Zaun_Crest 1.png') 40 stretch;
+        background-image: url("Zaun_Crest 1.png");
+    
+    }
+    .Ionia
+    {
+    
+        border-image: url('Ionia_Crest 1.png') 40 stretch;
+        background-image: url("Ionia_Crest 1.png");
+    
+    }
+    .Unknown
+    {
+        border-image: url('unknown.png') 40 stretch;
+        background-image: url("unknown.png");
+    
+    }
+    a
+    {
+    color: blue;    
+    text-decoration:none; 
+    }
+    a:hover
+    {
+      color: aqua;  
+      text-decoration: none;
+    }
+    
+   
+}
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    img
+    {
+        width: 198px;
+        height: 121px;
+        margin: 0px;
+        
+    }     
+    img:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }      
+    h1
+        { padding:175px 0 0 0 ;  
+           text-align: center;
+           font-size: 50px;
+           font-style: italic;
+           color:rgb(255, 183, 0);
+            
+        }
+    h4
+    {
+    font-size: 100%;
+    
+    }
+    p
+        {
+        font-size:0.75cm;
+        color:aliceblue;
+        font-style: oblique 90deg;
+        }
+    .container
+        {
+        display: flex;
+        flex-wrap:wrap;
+        }
+    
+    .container > div 
+        {
+        width: 198px;
+    }
+    div>.content /*champ name */
+        {
+    
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        width: 196px;
+        padding: 1px;
+        }
+    
+    
+    .Places,.Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+    
+        border: 10px solid transparent;
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+    
+    }
+    .Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+        padding: 165px 0 0 0;
+    
+    }
+    .Places
+    {   margin:150px 0 0 0 ;
+        border: 10px solid transparent;
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        /*background-image:url('Demacia_Crest 1.png');*/
+        background-color: cornsilk;
+    }
+    .Demarcia
+    {
+    
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        background-image:url('Demacia_Crest 1.png');
+        background-color: rgb(46, 46, 46);
+    }
+    .Noxus
+    {
+    
+        border-image: url('Noxus_Crest 1.png') 40 stretch;
+        background-image: url("Noxus_Crest 1.png");
+    
+    }
+    .Mount
+    {   
+    
+        border-image: url('Mount_Targon_Crest 1.png') 40 stretch;
+        background-image: url("Mount_Targon_Crest 1.png");
+    
+    }
+    .Bandle
+    {   
+    
+        border-image: url('Bandle_City_Crest 1.png') 40 stretch;
+        background-image: url("Bandle_City_Crest 1.png");
+    
+    }
+    .Shurima
+    {   
+        
+        border-image: url('Shuriman_Crest 1.png') 40 stretch;
+        background-image: url("Shuriman_Crest 1.png");
+        
+        
+    }
+    .Void
+    {   
+        border-image: url('Void_Crest 1.png') 40 stretch;
+        background-image: url("Void_Crest 1.png");
+    
+    }
+    .Bilgewater
+    {
+        border-image: url('Bilgewater_Crest 1.png') 40 stretch;
+        background-image: url("Bilgewater_Crest 1.png");
+    
+    }
+    .Shadow
+    {
+    
+        border-image: url('Shadow_Isles_Crest 1.png') 40 stretch;
+        background-image: url("Shadow_Isles_Crest 1.png");
+    
+    }
+    .Freljord
+    {
+    
+        border-image: url('Freljord_crest 1.png') 40 stretch;
+        background-image: url("Freljord_crest 1.png");
+    
+    }
+    .Piltover
+    {
+    
+        border-image: url('Piltover_Crest 1.png') 40 stretch;
+        background-image: url("Piltover_Crest 1.png");
+    
+    }
+    .Zaun 
+    {
+    
+        border-image: url('Zaun_Crest 1.png') 40 stretch;
+        background-image: url("Zaun_Crest 1.png");
+    
+    }
+    .Ionia
+    {
+    
+        border-image: url('Ionia_Crest 1.png') 40 stretch;
+        background-image: url("Ionia_Crest 1.png");
+    
+    }
+    .Unknown
+    {
+        border-image: url('unknown.png') 40 stretch;
+        background-image: url("unknown.png");
+    
+    }
+    a
+    {
+    color: blue;    
+    text-decoration:none; 
+    }
+    a:hover
+    {
+      color: aqua;  
+      text-decoration: none;
+    } 
+    
+}
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    img
+    {
+        width: 144px;
+        height: 100px;
+        margin: 0px;
+        
+    }     
+    img:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }      
+    h1
+        { padding:175px 0 0 0 ;  
+           text-align: center;
+           font-size: 50px;
+           font-style: italic;
+           color:rgb(255, 183, 0);
+            
+        }
+    h4
+    {
+    font-size: 63%;
+    
+    }
+    p
+        {
+        font-size:0.75cm;
+        color:aliceblue;
+        font-style: oblique 90deg;
+        }
+    .container
+        {
+        display: flex;
+        flex-wrap:wrap;
+        }
+    
+    .container > div 
+        {
+
+        width: 143px;
+    
+        }
+    div>.content /*champ name */
+        { 
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 142px;
+        padding: 1px;
+        }
+    
+    
+    .Places,.Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+    
+        border: 10px solid transparent;
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+    
+    }
+    .Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+        padding: 165px 0 0 0;
+    
+    }
+    .Places
+    {   margin:150px 0 0 0 ;
+        border: 10px solid transparent;
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        /*background-image:url('Demacia_Crest 1.png');*/
+        background-color: cornsilk;
+    }
+    .Demarcia
+    {
+    
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        background-image:url('Demacia_Crest 1.png');
+        background-color: rgb(46, 46, 46);
+    }
+    .Noxus
+    {
+    
+        border-image: url('Noxus_Crest 1.png') 40 stretch;
+        background-image: url("Noxus_Crest 1.png");
+    
+    }
+    .Mount
+    {   
+    
+        border-image: url('Mount_Targon_Crest 1.png') 40 stretch;
+        background-image: url("Mount_Targon_Crest 1.png");
+    
+    }
+    .Bandle
+    {   
+    
+        border-image: url('Bandle_City_Crest 1.png') 40 stretch;
+        background-image: url("Bandle_City_Crest 1.png");
+    
+    }
+    .Shurima
+    {   
+        
+        border-image: url('Shuriman_Crest 1.png') 40 stretch;
+        background-image: url("Shuriman_Crest 1.png");
+        
+        
+    }
+    .Void
+    {   
+        border-image: url('Void_Crest 1.png') 40 stretch;
+        background-image: url("Void_Crest 1.png");
+    
+    }
+    .Bilgewater
+    {
+        border-image: url('Bilgewater_Crest 1.png') 40 stretch;
+        background-image: url("Bilgewater_Crest 1.png");
+    
+    }
+    .Shadow
+    {
+    
+        border-image: url('Shadow_Isles_Crest 1.png') 40 stretch;
+        background-image: url("Shadow_Isles_Crest 1.png");
+    
+    }
+    .Freljord
+    {
+    
+        border-image: url('Freljord_crest 1.png') 40 stretch;
+        background-image: url("Freljord_crest 1.png");
+    
+    }
+    .Piltover
+    {
+    
+        border-image: url('Piltover_Crest 1.png') 40 stretch;
+        background-image: url("Piltover_Crest 1.png");
+    
+    }
+    .Zaun 
+    {
+    
+        border-image: url('Zaun_Crest 1.png') 40 stretch;
+        background-image: url("Zaun_Crest 1.png");
+    
+    }
+    .Ionia
+    {
+    
+        border-image: url('Ionia_Crest 1.png') 40 stretch;
+        background-image: url("Ionia_Crest 1.png");
+    
+    }
+    .Unknown
+    {
+        border-image: url('unknown.png') 40 stretch;
+        background-image: url("unknown.png");
+    
+    }
+    a
+    {
+    color: blue;    
+    text-decoration:none; 
+    }
+    a:hover
+    {
+      color: aqua;  
+      text-decoration: none;
+    }
+
+    
+}
+
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    img
+    {
+        width: 111px;
+        height: 74px;
+        margin: 0px;
+        
+    }     
+    img:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }      
+    h1
+        { padding:85px 0 0 0 ;  
+           text-align: center;
+           font-size: 25px;
+           font-style: italic;
+           color:rgb(255, 183, 0);
+            
+        }
+    h4
+    {
+    font-size: 50%;
+    
+    }
+    p
+        {
+        font-size:0.75cm;
+        color:aliceblue;
+        font-style: oblique 90deg;
+        }
+    .container
+        {
+        display: flex;
+        flex-wrap:wrap;
+        }
+    
+    .container > div 
+        {
+        width: 111px;
+        }
+    div>.content /*champ name */
+        {
+    
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        width: 109px;
+        padding: 1px;
+        }
+    
+    
+    .Places,.Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+    
+        border: 10px solid transparent;
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+    
+    }
+    .Bandle,.Bilgewater,.Demarcia,.Freljord,.Ionia,.Mount,.Noxus,.Piltover,.Shadow,.Shurima,.Unknown,.Void,.Zaun
+    {
+        padding: 168px 0 0 0;
+    
+    }
+    .Places
+    {   margin:150px 0 0 0 ;
+        border: 10px solid transparent;
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        /*background-image:url('Demacia_Crest 1.png');*/
+        background-color: cornsilk;
+    }
+    .Demarcia
+    {
+    
+        border-image: url('Demacia_Crest 1.png') 40 stretch;
+        background-image:url('Demacia_Crest 1.png');
+        background-color: rgb(46, 46, 46);
+    }
+    .Noxus
+    {
+    
+        border-image: url('Noxus_Crest 1.png') 40 stretch;
+        background-image: url("Noxus_Crest 1.png");
+    
+    }
+    .Mount
+    {   
+    
+        border-image: url('Mount_Targon_Crest 1.png') 40 stretch;
+        background-image: url("Mount_Targon_Crest 1.png");
+    
+    }
+    .Bandle
+    {   
+    
+        border-image: url('Bandle_City_Crest 1.png') 40 stretch;
+        background-image: url("Bandle_City_Crest 1.png");
+    
+    }
+    .Shurima
+    {   
+        
+        border-image: url('Shuriman_Crest 1.png') 40 stretch;
+        background-image: url("Shuriman_Crest 1.png");
+        
+        
+    }
+    .Void
+    {   
+        border-image: url('Void_Crest 1.png') 40 stretch;
+        background-image: url("Void_Crest 1.png");
+    
+    }
+    .Bilgewater
+    {
+        border-image: url('Bilgewater_Crest 1.png') 40 stretch;
+        background-image: url("Bilgewater_Crest 1.png");
+    
+    }
+    .Shadow
+    {
+    
+        border-image: url('Shadow_Isles_Crest 1.png') 40 stretch;
+        background-image: url("Shadow_Isles_Crest 1.png");
+    
+    }
+    .Freljord
+    {
+    
+        border-image: url('Freljord_crest 1.png') 40 stretch;
+        background-image: url("Freljord_crest 1.png");
+    
+    }
+    .Piltover
+    {
+    
+        border-image: url('Piltover_Crest 1.png') 40 stretch;
+        background-image: url("Piltover_Crest 1.png");
+    
+    }
+    .Zaun 
+    {
+    
+        border-image: url('Zaun_Crest 1.png') 40 stretch;
+        background-image: url("Zaun_Crest 1.png");
+    
+    }
+    .Ionia
+    {
+    
+        border-image: url('Ionia_Crest 1.png') 40 stretch;
+        background-image: url("Ionia_Crest 1.png");
+    
+    }
+    .Unknown
+    {
+        border-image: url('unknown.png') 40 stretch;
+        background-image: url("unknown.png");
+    
+    }
+    a
+    {
+    color: blue;    
+    text-decoration:none; 
+    }
+    a:hover
+    {
+      color: aqua;  
+      text-decoration: none;
+    }
+}
